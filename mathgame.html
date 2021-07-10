@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Math Game</title>
+        <meta charset ="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="background">
+        <div class="container">
+            <div id="score" class="score">
+                <p>SCORE : 0</p>
+            </div>
+            <div class="clear1"></div>
+            <div id="panel" class="panel">
+                <p>Question!</p>
+            </div>
+            
+            <div id="gameover" class="gameover"> gameover your score is :</div>
+           
+            <div id="board" class="board">
+                <p>Click on the correct answer</p>
+            </div>
+           
+            <div class="choises">
+                <button id="button0" class="buttons" onclick="respond(this.id)">choice1</button>
+                <button id="button1" class="buttons" onclick="respond(this.id)">choice2</button>
+                <button id="button2" class="buttons" onclick="respond(this.id)">choice3</button>
+                <button id="button3" class="buttons" onclick="respond(this.id)">choice4</button>
+            </div>
+           
+            <div id="bottom" class="bottom">   
+                    <button id="button" class="button" , onclick="startreset()">START</button>
+                <div  class="timer">
+                    <p id="time" class="time">Time remeaning :</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="javascript.js">
+            
+        </script>
+    </body>
+</html>

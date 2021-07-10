@@ -1,0 +1,122 @@
+.background{
+                background-color: ghostwhite;
+                height: auto;
+                padding-top: 15px;
+            }
+            .container{
+                background-color: darkturquoise;
+                width: 850px;
+                height: 600px;
+                padding: 10px;
+                margin: 5px auto;
+                border-radius: 8px;
+                border-bottom :5px solid purple;
+                border-radius: 10px;
+            }
+            .score{
+                font-size: 20px;
+                line-height: 8px;
+                background-color: bisque;
+                width: 100px;
+                height: 45px;
+                text-align: center;
+                float: right;
+                margin :10px;
+                border-bottom: 3px solid yellowgreen;
+                border-radius: 10px; 
+            }
+            .clear1{
+                clear: both;
+                margin-bottom: 10px;
+            }
+           
+            .panel{
+                /*position: absolute;*/
+                font-size: 60px;
+                text-align: center;
+                width: 500px;
+                height: 190px;
+                background-color: cornflowerblue;
+                padding: 10px;
+                margin: 0px auto;
+              /*  margin-left: 165px;
+                margin-bottom: 0px;*/
+                border-bottom :5px solid purple;
+                border-radius: 50px;
+                
+            }
+            .board{
+                background-color: darkorchid;
+                text-align: center;
+                height: 40px;
+                font-size: 26px;
+                line-height: 40px;
+                width: 522px;
+                margin: 15px auto;
+                border-bottom :2px solid purple;
+                border-radius: 10px;
+            }
+            .choises{
+                display: flex;
+                justify-content: space-around;
+                margin: 10px 120px;
+            }
+            .bottom{
+                display: flex;
+                margin-top: 85px;
+            }
+            .timer{
+                background-color: darkorchid;
+                font-size: 20px;
+                width: 180px;
+                text-align: center;
+                margin: 20px auto;   
+                border-radius: 10px;
+            }
+            
+            .button{
+                margin-left: 350px;
+                margin-bottom: 20px;
+                font-size: 30px;
+                font-style: italic;
+                display: inline;
+                background-color: bisque;
+                border-radius: 10px;
+                
+            }
+            .button:hover
+                {
+                    font-size: 33px;
+                    background-color: blueviolet;
+                    color: wheat;
+                }
+            .buttons{
+                font-size: 25px;
+                height: 60px;
+                background-color: bisque;
+                border-radius: 10px;
+                transition-duration: .2s;
+            }
+            .buttons:hover 
+            {
+                font-size: 35px;
+            }
+            .timer{
+                margin-left: 200px;
+                color: white;
+                height: 55px;
+                font-size: 17px;
+                width: 185px;
+            }
+            .gameover{
+                display:none;
+                position: relative;
+                z-index: 2px;
+                width: 780px;
+                height: 150px;
+                font-size: 55px;
+                background: linear-gradient(yellow,orange);
+                padding-top: 50px;
+                text-align: center;
+                margin: 5px auto;
+                border-radius: 20px;
